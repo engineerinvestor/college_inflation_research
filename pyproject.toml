@@ -1,0 +1,24 @@
+[project]
+name = "college-inflation-research"
+version = "0.1.0"
+description = "20-year analysis of cost-of-attendance at Ivy+ universities with projections to 2046"
+authors = [{ name = "Engineer Investor" }]
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "scipy>=1.10",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

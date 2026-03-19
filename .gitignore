@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/processed/
+charts/png/
+charts/svg/
+output/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+.claude/
