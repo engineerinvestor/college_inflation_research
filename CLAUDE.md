@@ -51,7 +51,7 @@ All costs are **sticker price** (not net of financial aid). This distinction mus
 ## Git Configuration
 
 - Remote: `git@github.com:engineerinvestor/college_inflation_research.git`
-- Commit identity: use whatever is configured in the user's global git config
+- Commit identity: `Engineer Investor <egr.investor@gmail.com>`
 - Commit command format: `git commit -m "$(cat <<'EOF'\n<message>\n\nCo-Authored-By: ...\nEOF\n)"`
 
 ## Writing Style
